@@ -1,0 +1,36 @@
+site_name: Projeto Aula - Trilha Python
+site_description: Documentação do projeto realizado na Aula de Trilha Python
+site_author: Carla Lerisse
+repo_url: https://github.com/carla-lerisse/projeto-aula
+
+theme:
+  name: material
+  language: pt-BR
+  palette:
+    - scheme: default
+      primary: 'blue'
+      accent: 'light blue'
+      toggle:
+      icon: material/weather-night
+      name: 'Modo Escuro'
+    - scheme: slate
+      primary: 'blue'
+      accent: 'light blue'
+      toggle:
+      icon: material/weather-sunny
+      name: 'Modo Claro'
+  features:
+    - content.code.copy
+    - navigation.footer
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - tables
+  
